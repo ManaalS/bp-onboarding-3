@@ -21,7 +21,7 @@ function SignInScreen() {
         justifyContent: "center",
       }}
     >
-      <h1>Pineapple Login</h1>
+      <h1>Pineapple Login!</h1>
       <p>Please sign-in:</p>
       <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
     </div>
